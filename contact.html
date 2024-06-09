@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact page</title>
+</head>
+<body>
+	
+	<!-- news page heading -->
+		<center>
+			<h1><img src="D:\html_E\imgs\wave.jpg" width="160px" height="100px" alt="wave_logo"> The Wave : <i> Riding the Tide of Current Events</i></h1>
+		</center>
+
+	<!-- contact us heading -->
+		<h1>Contact Us</h1>
+		<hr>
+
+	<!-- image for waves -->
+				<img src="D:\html_E\imgs\contact-us.jpg" width="100%" height="500px" alt="contact-us"><br>
+		
+				<p>At Wave, we value your feedback, inquiries, and engagement. Whether you have a news tip, a question, or a suggestion, we are here to listen. Please find the appropriate contact information below to get in touch with us.</p>
+
+
+	<!-- contact social media -->
+			<h2>Join with us</h2>
+				<p>Follow us on social medias.Engage with us ,share your thoughts and be a part of the conversation.</p>
+
+				<ul>
+					<li>Twitter: @WaveNews</li>
+					<li>Facebook: facebook.com/WaveNews</li>
+					<li>Instagram: @Wave.News</li>
+					<li>Email: info@wavenews.com</li>
+				</ul>
+		<hr>
+
+	<!-- contact office address -->
+		<address>
+			<h2>Office Address</h2>
+				<p>Visit or send mail to our main office at:</p>
+					<p>Wave News Headquarters<br>
+					123 News Avenue<br>
+					Suite 456<br>
+					Metro, NY 12345<br>
+					USA</p>
+		</address>
+
+
+		<hr>
+	<!-- feedback section-->
+			<h2>Feedback Form</h2>
+			<p>Alternatively, you can fill out the form below, and we will get back to you as soon as possible:
+
+	<!-- feedback form -->
+			<form action="feedback.php" method="POST" target="_blank" enctype="multiple/form-data">
+
+			<!-- name -->
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="Enter your name" size="18" required>
+		<br><br>
+
+			<!-- mobile number -->
+					<label for="mobile-number">Mobile Number:</label>
+					<input type="tel" id="mobile-number" name="mobile-number" placeholder="enter your mobile number" pattern=[0-9]{10} required>
+		<br><br>
+
+			<!-- dropdown -->
+					<label for="communication">Type of communication</label>
+					<select id="communication" name="communication-type">
+						<option>--choose--</option>
+						<option>Sales</option>
+						<option>Service</option>
+						<option>Enquiry</option>
+						<option>advertisement</option>
+						<option>Complaint</option>
+					</select>
+		<br><br>
+
+			<!-- description -->
+					<label for="description">Description</label>
+					<textarea id="description" name="description" placeholder="descibe.." rows="10" cols="30"></textarea>
+
+		<br><br>
+
+			<!-- submit buton -->
+					<input type="submit" value="submit">
+	</form>
+
+	<h3>Thank you for reaching out to Wave. We appreciate your interest and look forward to connecting with you.</h3>
+
+	<a href="home.html"><button><b>BACK</b></button></a>
+</body>
+</html>
